@@ -1,58 +1,70 @@
 @charset "utf-8";
 /* CSS Document */
 
-body,html {
-	font-family: Open Sans, sans-serif, Arial, Helvetica;
-	font-size: 18px;
-	color: #000000;
-	widht: 100%;
+body,
+html {
+  font-family: Open Sans, sans-serif, Arial, Helvetica;
+  font-size: 18px;
+  color: #000000;
+  widht: 100%;
 }
 
-h1, h2, h3 { padding-bottom: 5px;     padding-top: 5px;     font-size: 22px;     margin-bottom: 10px;     text-align: center;  background-color: #C0C0C0;   border-style: solid;     border-bottom: double #666;     border-top: double;     border-left: 0px;  border-right: 0px;  border-center: 0px;     border-radius: 0px;         font-family: "sans;georgia;arial" }
-
-
-
-a, a:link, a:active, a:visited {
-	text-decoration: none;
-	font-weight: bold;
+h1,
+h2,
+h3 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #b83b5e;
+  border-style: solid;
+  border-bottom: double #666;
+  border-top: double;
+  border-left: 0px;
+  border-right: 0px;
+  border-center: 0px;
+  border-radius: 0px;
+  font-family: "sans;georgia;arial";
 }
 
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
 
 @font-face {
-    font-family: KFGQPC Uthman Taha Naskh Bold;
-    src: url("file:///android_asset/font.ttf")
+  font-family: KFGQPC Uthman Taha Naskh Bold;
+  src: url("file:///android_asset/font.ttf");
 }
 
 .arab {
-    font-family: KFGQPC Uthman Taha Naskh Bold;
-    text-align: left;
-
+  font-family: KFGQPC Uthman Taha Naskh Bold;
+  text-align: left;
 }
 
 #simple {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 #simple li {
-    background: #D3D3D3;
-    border-bottom: 7px solid #fff;
-    list-style: none;
-    padding: 0.5em;
-    text-align: center;
-
+  background: #8785a2;
+  border-bottom: 7px solid #fff;
+  list-style: none;
+  padding: 0.5em;
+  text-align: center;
 }
 
 #simple li:hover {
-    background: #808080;
+  background: #808080;
 }
 
 #simple li a {
-    color: black;
-    display: block;
-    text-decoration: none;
+  color: black;
+  display: block;
+  text-decoration: none;
 }
-
-
-
